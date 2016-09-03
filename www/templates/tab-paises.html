@@ -1,0 +1,15 @@
+<ion-view view-title="Paises">
+  <ion-content>
+    <!--<div class="list card" ng-repeat="mensaje in MisMensajes">
+      <strong>{{mensaje.usuario}}</strong>
+    </div>-->
+
+    <ion-list>
+      <ion-item ng-repeat="pais in ListadoPaises" >
+        <h2>{{pais.name}}</h2>
+        <p>Capital: {{pais.capital}}</p>
+        <p>Subregion: {{pais.subregion}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
